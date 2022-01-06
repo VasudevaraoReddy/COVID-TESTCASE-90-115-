@@ -1,0 +1,7 @@
+.vaccination-body {
+  background-color: #161625;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

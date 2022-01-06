@@ -1,0 +1,82 @@
+.graph-page-confirmed {
+  background-color: #331427;
+}
+.graph-page-active {
+  background-color: #132240;
+}
+.graph-page-recovered {
+  background-color: #182829;
+}
+.graph-page-deceased {
+  background-color: #1c1c2b;
+}
+.graph-page-tested {
+  background-color: #230f41;
+}
+.line-chart-ul-desktop {
+  list-style-type: none;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .line-chart-ul-desktop {
+    display: none;
+  }
+}
+.line-chart-ul-mobile {
+  list-style-type: none;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .line-chart-ul-mobile {
+    display: none;
+  }
+}
+.li-line-chart {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bar {
+  color: white !important;
+  margin: 50px;
+}
+.barcharts-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.charts {
+  border-radius: 12px;
+  margin-bottom: 32px;
+  padding: 40px;
+  overflow-x: auto;
+}
+
+.charts-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #cbd5e1;
+}
+
+.barchart-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-wrapper {
+  overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+  .charts {
+    width: 100%;
+  }
+}
